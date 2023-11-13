@@ -1,0 +1,1036 @@
+.button-clear {
+  background: #b399cc;
+  color: #fff;
+  border: 1px solid #b399cc;
+  border-radius: 6px;
+  letter-spacing: .16em;
+  font-weight: 700;
+  font-size: 15px;
+  height: 42px;
+  line-height: 42px
+}
+.no-touch .button-clear:hover,
+.touch .button-clear:active {
+  background-color: #8eda72;
+  border-color: #8eda72
+}
+.button-reset {
+  background-color: #f3315f;
+  border-color: #f3315f
+}
+.ribbon {
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1
+}
+.ribbon::after,
+.ribbon::before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  display: block;
+  border: 3px solid #ff3c00
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 115px;
+  padding: 7px 0;
+  background-color: #ff3c00;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  color: #fff;
+  font: 700 12px/1 Lato,sans-serif;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-align: center
+}
+.ribbon.ribbon-pink span {
+  background-color: #e5398f
+}
+.ribbon.ribbon-pink::after,
+.ribbon.ribbon-pink::before {
+  border: 3px solid #e5398f
+}
+.ribbon-top-left {
+  top: -10px;
+  left: -10px
+}
+.ribbon-top-left::after,
+.ribbon-top-left::before {
+  border-top-color: transparent;
+  border-left-color: transparent
+}
+.ribbon-top-left::before {
+  top: 0;
+  right: 0
+}
+.ribbon-top-left::after {
+  bottom: 0;
+  left: 0
+}
+.ribbon-top-left span {
+  right: -25px;
+  top: 30px;
+  transform: rotate(-45deg)
+}
+.ribbon-top-right {
+  top: -5px;
+  right: -5px
+}
+.ribbon-top-right::after,
+.ribbon-top-right::before {
+  border-top-color: transparent;
+  border-right-color: transparent
+}
+.ribbon-top-right::before {
+  top: 0;
+  left: 0
+}
+.ribbon-top-right::after {
+  bottom: 0;
+  right: 0
+}
+.ribbon-top-right span {
+  left: -12px;
+  top: 15px;
+  transform: rotate(45deg)
+}
+.ribbon-bottom-left {
+  bottom: -10px;
+  left: -10px
+}
+.ribbon-bottom-left::after,
+.ribbon-bottom-left::before {
+  border-bottom-color: transparent;
+  border-left-color: transparent
+}
+.ribbon-bottom-left::before {
+  bottom: 0;
+  right: 0
+}
+.ribbon-bottom-left::after {
+  top: 0;
+  left: 0
+}
+.ribbon-bottom-left span {
+  right: -25px;
+  bottom: 30px;
+  transform: rotate(225deg)
+}
+.ribbon-bottom-right {
+  bottom: -10px;
+  right: -10px
+}
+.ribbon-bottom-right::after,
+.ribbon-bottom-right::before {
+  border-bottom-color: transparent;
+  border-right-color: transparent
+}
+.ribbon-bottom-right::before {
+  bottom: 0;
+  left: 0
+}
+.ribbon-bottom-right::after {
+  top: 0;
+  right: 0
+}
+.ribbon-bottom-right span {
+  left: -25px;
+  bottom: 30px;
+  transform: rotate(-225deg)
+}
+.coffee-group-color-a {
+  background: linear-gradient(180deg,#a5d5c1 0,#f5f5f5 30%)
+}
+.coffee-group-color-a.-whole-cover {
+  background: linear-gradient(180deg,#a5d5c1 0,#f5f5f5 100%)
+}
+.coffee-group-color-b {
+  background: linear-gradient(180deg,#f08488 0,#f5f5f5 30%)
+}
+.coffee-group-color-b.-whole-cover {
+  background: linear-gradient(180deg,#f08488 0,#f5f5f5 100%)
+}
+.coffee-group-color-b\+ {
+  background: linear-gradient(180deg,#c19a8b 0,#f5f5f5 30%)
+}
+.coffee-group-color-b\+.-whole-cover {
+  background: linear-gradient(180deg,#c19a8b 0,#f5f5f5 100%)
+}
+.coffee-group-color-c {
+  background: linear-gradient(180deg,#a3daef 0,#f5f5f5 30%)
+}
+.coffee-group-color-c.-whole-cover {
+  background: linear-gradient(180deg,#a3daef 0,#f5f5f5 100%)
+}
+.coffee-group-color-d {
+  background: linear-gradient(180deg,#ffdd94 0,#f5f5f5 30%)
+}
+.coffee-group-color-d.-whole-cover {
+  background: linear-gradient(180deg,#ffdd94 0,#f5f5f5 100%)
+}
+.coffee-group-color-e {
+  background: linear-gradient(180deg,#f5b3d1 0,#f5f5f5 30%)
+}
+.coffee-group-color-e.-whole-cover {
+  background: linear-gradient(180deg,#f5b3d1 0,#f5f5f5 100%)
+}
+.coffee-group-color-r {
+  background: linear-gradient(180deg,#d0de82 0,#f5f5f5 30%)
+}
+.coffee-group-color-r.-whole-cover {
+  background: linear-gradient(180deg,#d0de82 0,#f5f5f5 100%)
+}
+.coffee-group-color-u {
+  background: linear-gradient(180deg,#bac3c9 0,#f5f5f5 30%)
+}
+.coffee-group-color-u.-whole-cover {
+  background: linear-gradient(180deg,#bac3c9 0,#f5f5f5 100%)
+}
+.coffee-group-color-z {
+  background: linear-gradient(180deg,#c7ced1 0,#f5f5f5 30%)
+}
+.coffee-group-color-z.-whole-cover {
+  background: linear-gradient(180deg,#c7ced1 0,#f5f5f5 100%)
+}
+.coffee-group-color-h {
+  background: linear-gradient(180deg,#a7499a 0,#f5f5f5 30%)
+}
+.coffee-group-color-h.-whole-cover {
+  background: linear-gradient(180deg,#a7499a 0,#f5f5f5 100%)
+}
+.coffee-group-color-gr {
+  background: linear-gradient(180deg,#f0f0f0 0,#f5f5f5 30%)
+}
+.coffee-group-color-gr.-whole-cover {
+  background: linear-gradient(180deg,#f0f0f0 0,#f5f5f5 100%)
+}
+.coffee-group-color-grn {
+  background: linear-gradient(180deg,#647944 0,#f5f5f5 30%)
+}
+.coffee-group-color-grn.-whole-cover {
+  background: linear-gradient(180deg,#647944 0,#f5f5f5 100%)
+}
+.coffee-group-color-not_available {
+  background: linear-gradient(180deg,#c7c7c7 0,#f5f5f5 30%)
+}
+.coffee-group-color-not_available.-whole-cover {
+  background: linear-gradient(180deg,#c7c7c7 0,#f5f5f5 100%)
+}
+.coffee-group-color-temporary_not_available {
+  background: linear-gradient(180deg,rgba(53,48,95,.53) 0,#f5f5f5 30%)
+}
+.coffee-group-color-temporary_not_available.-whole-cover {
+  background: linear-gradient(180deg,rgba(53,48,95,.53) 0,#f5f5f5 100%)
+}
+.container-semi-large {
+  padding: 0 20px
+}
+.card-coffee .card-container-shadow {
+  width: 95%;
+  height: 13px;
+  left: 2.5%;
+  bottom: -1px;
+  border-radius: 100%/13px;
+  background: linear-gradient(180deg,#bab7bb 38.46%,rgba(186,183,187,0) 100%);
+  filter: blur(5px)
+}
+.card-coffee .card-container {
+  padding: 15px 0
+}
+.card-coffee .card-container.promo-product {
+  background-color: #353060;
+  color: #b399cc
+}
+.card-coffee .card-container.promo-product .card-buy-block .action-block .button-action-wrapper .value-button .label-area input,
+.card-coffee .card-container.promo-product .card-desc,
+.card-coffee .card-container.promo-product .card-marks-number,
+.card-coffee .card-container.promo-product .price-block,
+.card-coffee .card-container.promo-product .price-block .current-price {
+  color: #fff
+}
+.card-coffee .card-container.promo-product .card-name {
+  color: #2cecbc
+}
+.card-coffee .card-container.promo-product .card-category {
+  color: #b399cc
+}
+.card-coffee .card-container.promo-product .card-top-block .card-rating .starts svg {
+  fill: #b399cc
+}
+.card-coffee .card-container.promo-product .card-top-block .card-rating .starts svg.active {
+  fill: #bc187c
+}
+.card-coffee .card-container.promo-product .card-scale-value {
+  background-color: #e9e9e9
+}
+.card-coffee .card-container.promo-product .card-scale-value.active {
+  background-color: #b399cc
+}
+.card-coffee .card-container.promo-product .card-buy-block .offer-block .dropdown-trigger {
+  background-color: #fff;
+  border-color: #353060;
+  color: #353060
+}
+.card-coffee .card-container.promo-product .card-buy-block .offer-block .dropdown-item {
+  color: #353060
+}
+.card-coffee .card-container.promo-product .card-buy-block .action-block .button {
+  background-color: #2cecbc;
+  border-color: #2cecbc
+}
+.no-touch .card-coffee .card-container.promo-product .card-buy-block .action-block .button:hover,
+.touch .card-coffee .card-container.promo-product .card-buy-block .action-block .button:active {
+  background-color: #1ea684;
+  border-color: #1ea684
+}
+.card-coffee .card-container.promo-product .card-buy-block .action-block .button-action-wrapper .value-button button[data-action=increase] {
+  background-color: #2cecbc
+}
+.no-touch .card-coffee .card-container.promo-product .card-buy-block .action-block .button-action-wrapper .value-button button[data-action=increase]:hover,
+.touch .card-coffee .card-container.promo-product .card-buy-block .action-block .button-action-wrapper .value-button button[data-action=increase]:active {
+  background-color: #1ea684
+}
+.card-coffee .card-container.promo-product .card-buy-block .action-block .button-action-wrapper .value-button .label-area {
+  border-color: #2cecbc;
+  color: #fff
+}
+.card-coffee .card-container.card-disabled {
+  filter: grayscale(1)
+}
+.card-coffee .card-container.card-disabled .card-top-block > :not(.card-name) {
+  opacity: .5
+}
+.card-coffee .card-container.card-disabled .card-buy-block {
+  opacity: .5
+}
+.card-coffee .card-container .card-top-block > * {
+  padding-left: 20px;
+  padding-right: 20px
+}
+.card-coffee .card-container .card-top-block .card-marks .card-marks-number .card-marks-number-label > span,
+.card-coffee .card-container.promo-product .card-buy-block .action-block .button-action-wrapper .value-button .label-area .card-top-block .card-marks input .card-marks-number-label > span,
+.card-coffee .card-container.promo-product .card-top-block .card-marks .card-buy-block .action-block .button-action-wrapper .value-button .label-area input .card-marks-number-label > span,
+.card-coffee .card-container.promo-product .card-top-block .card-marks .card-desc .card-marks-number-label > span,
+.card-coffee .card-container.promo-product .card-top-block .card-marks .price-block .card-marks-number-label > span,
+.card-coffee .card-container.promo-product .card-top-block .card-marks .price-block .current-price .card-marks-number-label > span,
+.card-coffee .card-container.promo-product .price-block .card-top-block .card-marks .current-price .card-marks-number-label > span {
+  font-size: 32px;
+  line-height: 31px
+}
+.card-coffee .card-container .card-top-block .card-marks .card-marks-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap
+}
+.card-coffee .card-container .card-top-block .card-marks .card-marks-list .card-mark {
+  padding: 0 6px;
+  line-height: 20px
+}
+.card-coffee .card-container .card-top-block .card-marks .card-marks-list .card-mark.hidden {
+  display: none
+}
+.card-coffee .card-container .card-top-block .card-marks .card-marks-list .card-mark.icon-smaller {
+  padding: 0 6px
+}
+.card-coffee .card-container .card-top-block .card-marks .card-marks-list .card-mark:first-child {
+  padding-left: 0
+}
+.card-coffee .card-container .card-top-block .card-marks .card-marks-list .card-mark:last-child {
+  padding-right: 0
+}
+.card-coffee .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon {
+  width: 23px;
+  height: 23px
+}
+.card-coffee .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-heart {
+  color: #fff
+}
+.card-coffee .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-heart.-active {
+  color: #f3315f
+}
+.no-touch .card-coffee .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-heart:hover:not(.-active),
+.touch .card-coffee .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-heart:active:not(.-active) {
+  color: #f3315f;
+  opacity: .8
+}
+.card-coffee .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-smaller {
+  width: 19px;
+  height: 19px
+}
+.card-coffee .card-container .card-top-block .card-name {
+  font-size: 27px;
+  line-height: 31px
+}
+.card-coffee .card-container .card-top-block .card-name .card-category {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: .05em;
+  text-indent: 1px;
+  margin-bottom: 10px
+}
+.card-coffee .card-container .card-top-block .card-rating .stars {
+  margin-left: 0
+}
+.card-coffee .card-container .card-top-block .card-rating .stars svg {
+  width: 15px;
+  height: 14px;
+  margin: 0 5px
+}
+.card-coffee .card-container .card-top-block .card-rating .stars svg:first-child {
+  margin-left: 0
+}
+.card-coffee .card-container .card-top-block .card-rating .stars svg:last-child {
+  margin-right: 0
+}
+.card-coffee .card-container .card-top-block .card-scales {
+  padding-left: 0;
+  padding-right: 20px
+}
+.card-coffee .card-container .card-top-block .card-scales > .row {
+  padding-left: 10px
+}
+.card-coffee .card-container .card-top-block .card-scales .card-scale {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  padding-left: 10px
+}
+.card-coffee .card-container .card-top-block .card-scales .card-scale:first-child,
+.card-coffee .card-container .card-top-block .card-scales .card-scale:nth-child(3) {
+  padding-left: 20px
+}
+.no-touch .card-coffee .card-container .card-top-block .card-scales .card-scale[data-high-level-notice]:hover .card-scale-high-level .notice-overlay,
+.touch .card-coffee .card-container .card-top-block .card-scales .card-scale[data-high-level-notice]:active .card-scale-high-level .notice-overlay {
+  display: flex
+}
+.card-coffee .card-container .card-top-block .card-scales .card-scale[data-high-level-notice].hovered .card-scale-high-level .notice-overlay {
+  display: flex
+}
+.card-coffee .card-container .card-top-block .card-scales .card-scale .card-scale-high-level {
+  position: absolute;
+  left: 0;
+  top: -3px;
+  display: flex;
+  margin-right: 10px
+}
+.card-coffee .card-container .card-top-block .card-scales .card-scale .card-scale-high-level .sign {
+  font-size: 15px;
+  line-height: 35px;
+  text-align: center;
+  background-color: #f3315f;
+  color: #fff;
+  width: 11px;
+  height: 35px;
+  min-width: 11px
+}
+.card-coffee .card-container .card-top-block .card-scales .card-scale .card-scale-high-level .notice-overlay {
+  display: none;
+  font-size: 13px;
+  line-height: 14px;
+  background-color: #353060;
+  color: #fff;
+  text-align: center;
+  height: 35px;
+  text-transform: none;
+  border-radius: 0 6px 6px 0;
+  align-items: center
+}
+.card-coffee .card-container .card-top-block .card-scales .card-scale .card-scale-value.high-level.active {
+  background-color: #f3315f
+}
+.card-coffee .card-container .card-buy-block {
+  padding-left: 20px;
+  padding-right: 20px
+}
+.card-coffee .card-container .card-buy-block .action-block .button-action-wrapper .value-button button {
+  background-color: #b399cc
+}
+.no-touch .card-coffee .card-container .card-buy-block .action-block .button-action-wrapper .value-button button:not([data-action]):hover,
+.touch .card-coffee .card-container .card-buy-block .action-block .button-action-wrapper .value-button button:not([data-action]):active {
+  background-color: #8eda72
+}
+.card-coffee .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action] {
+  background-color: #b399cc
+}
+.no-touch .card-coffee .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action]:hover,
+.touch .card-coffee .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action]:active {
+  background-color: #b399cc
+}
+.card-coffee .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action=decrease] {
+  background-color: #f3315f
+}
+.no-touch .card-coffee .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action=decrease]:hover,
+.touch .card-coffee .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action=decrease]:active {
+  background-color: #f3315f
+}
+.card-coffee .card-container .card-buy-block .action-block .button-action-wrapper .value-button .label-area {
+  border-color: #b399cc;
+  border-left: none;
+  border-right: none
+}
+.card-coffee .card-container:not(.color-class-grn) .card-buy-block .offer-block > div .dropdown-trigger svg {
+  width: 7px;
+  min-width: 7px
+}
+.card-coffee .card-container:not(.color-class-grn) .card-buy-block .offer-block > div .dropdown-list .dropdown-item {
+  font-size: 14px
+}
+.card-coffee .card-container:not(.color-class-grn) .card-buy-block .offer-block .dropdown-trigger {
+  font-size: 14px;
+  line-height: 34px
+}
+.card-coffee .card-container:not(.color-class-grn) .card-buy-block .offer-block:not(.we-2) > div .dropdown-list .dropdown-item {
+  white-space: nowrap
+}
+.card-coffee .card-container:not(.color-class-grn) .card-buy-block .offer-block:not(.we-2) > div .dropdown-list .dropdown-item.dropdown-item-active:after {
+  right: 5px
+}
+.card-coffee .card-container:not(.color-class-grn) .card-buy-block .offer-block:not(.we-2) .offer-type {
+  width: 25%
+}
+.card-coffee .card-container:not(.color-class-grn) .card-buy-block .offer-block:not(.we-2) .gas-type {
+  width: 35%
+}
+.card-coffee .card-container:not(.color-class-grn) .card-buy-block .offer-block:not(.we-2) .mill-type {
+  width: 33%
+}
+.card-coffee .icon-hint.icon-hint-mark {
+  background-color: #353060;
+  position: relative;
+  color: #fff;
+  top: 0
+}
+.card-coffee .icon-hint.icon-hint-mark.-invert {
+  background-color: #fff;
+  color: #353060
+}
+.card-tea .card-container {
+  padding: 0
+}
+.card-tea .card-container.promo-product {
+  background-color: #353060;
+  color: #b399cc
+}
+.card-tea .card-container.promo-product [data-block-type=name-chinese] {
+  color: #2cecbc
+}
+.card-tea .card-container.promo-product .card-category {
+  color: #b399cc
+}
+.card-tea .card-container.promo-product .card-top-block .card-rating .starts svg {
+  fill: #b399cc
+}
+.card-tea .card-container.promo-product .card-top-block .card-rating .starts svg.active {
+  fill: #bc187c
+}
+.card-tea .card-container.promo-product .card-desc {
+  color: #fff
+}
+.card-tea .card-container.promo-product .card-scale-value {
+  background-color: #e9e9e9
+}
+.card-tea .card-container.promo-product .card-scale-value.active {
+  background-color: #b399cc
+}
+.card-tea .card-container.promo-product .price-block {
+  color: #fff
+}
+.card-tea .card-container.promo-product .price-block .current-price {
+  color: #fff
+}
+.card-tea .card-container.promo-product .card-buy-block .offer-block .dropdown-trigger {
+  background-color: #fff;
+  border-color: #353060;
+  color: #353060
+}
+.card-tea .card-container.promo-product .card-buy-block .offer-block .dropdown-item {
+  color: #353060
+}
+.card-tea .card-container.promo-product .card-buy-block .action-block .button {
+  background-color: #2cecbc;
+  border-color: #2cecbc
+}
+.no-touch .card-tea .card-container.promo-product .card-buy-block .action-block .button:hover,
+.touch .card-tea .card-container.promo-product .card-buy-block .action-block .button:active {
+  background-color: #1ea684;
+  border-color: #1ea684
+}
+.card-tea .card-container.promo-product .card-buy-block .action-block .button-action-wrapper .value-button button {
+  background-color: #bc187c
+}
+.no-touch .card-tea .card-container.promo-product .card-buy-block .action-block .button-action-wrapper .value-button button:hover,
+.touch .card-tea .card-container.promo-product .card-buy-block .action-block .button-action-wrapper .value-button button:active {
+  background-color: #88125b
+}
+.card-tea .card-container.promo-product .card-buy-block .action-block .button-action-wrapper .value-button .label-area {
+  border-color: #bc187c;
+  color: #fff
+}
+.card-tea .card-container.promo-product .card-buy-block .action-block .button-action-wrapper .value-button .label-area input {
+  color: #fff
+}
+.card-tea .card-container .card-top-block .card-inner {
+  padding-bottom: 0
+}
+.card-tea .card-container .card-top-block .card-rating .stars {
+  margin-left: 0
+}
+.card-tea .card-container .card-top-block .card-rating .stars svg {
+  width: 15px;
+  height: 14px
+}
+.card-tea .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon {
+  width: 23px;
+  height: 23px
+}
+.card-tea .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-heart {
+  color: #fff
+}
+.card-tea .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-heart.-active {
+  color: #f3315f
+}
+.no-touch .card-tea .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-heart:hover:not(.-active),
+.touch .card-tea .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-heart:active:not(.-active) {
+  color: #f3315f;
+  opacity: .8
+}
+.card-tea .card-container .card-buy-block {
+  min-height: 35px
+}
+.card-tea .card-container .card-buy-block .action-block .button {
+  height: 35px;
+  line-height: 35px;
+  border-radius: 4px
+}
+.card-tea .card-container .card-buy-block .action-block .button-action-wrapper .value-button {
+  height: 35px
+}
+.card-tea .card-container .card-buy-block .action-block .button-action-wrapper .value-button button {
+  line-height: 40px
+}
+.card-tea .card-container .card-buy-block .action-block .button-action-wrapper .value-button .label-area {
+  line-height: 37px
+}
+.card-tea .card-container .markup {
+  padding: 20px
+}
+.no-touch .card-tea .card-container.color-class-green_tea:hover,
+.touch .card-tea .card-container.color-class-green_tea:active {
+  border-color: #bcc884;
+  box-shadow: 0 0 5px 0 #bcc884,0 3px 20px 0 #bcc884
+}
+.no-touch .card-tea .card-container.color-class-green_japanese_tea:hover,
+.touch .card-tea .card-container.color-class-green_japanese_tea:active {
+  border-color: #bbe8de;
+  box-shadow: 0 0 5px 0 #bbe8de,0 3px 20px 0 #bbe8de
+}
+.no-touch .card-tea .card-container.color-class-white_tea:hover,
+.touch .card-tea .card-container.color-class-white_tea:active {
+  border-color: #d5e1f1;
+  box-shadow: 0 0 5px 0 #d5e1f1,0 3px 20px 0 #d5e1f1
+}
+.no-touch .card-tea .card-container.color-class-red_tea:hover,
+.touch .card-tea .card-container.color-class-red_tea:active {
+  border-color: #f79f92;
+  box-shadow: 0 0 5px 0 #f79f92,0 3px 20px 0 #f79f92
+}
+.no-touch .card-tea .card-container.color-class-oolong:hover,
+.touch .card-tea .card-container.color-class-oolong:active {
+  border-color: #ffdb80;
+  box-shadow: 0 0 5px 0 #ffdb80,0 3px 20px 0 #ffdb80
+}
+.no-touch .card-tea .card-container.color-class-puerh:hover,
+.touch .card-tea .card-container.color-class-puerh:active {
+  border-color: #d4b891;
+  box-shadow: 0 0 5px 0 #d4b891,0 3px 20px 0 #d4b891
+}
+.no-touch .card-tea .card-container.color-class-with_additives:hover,
+.touch .card-tea .card-container.color-class-with_additives:active {
+  border-color: #b9b5e8;
+  box-shadow: 0 0 5px 0 #b9b5e8,0 3px 20px 0 #b9b5e8
+}
+.no-touch .card-tea .card-container.color-class-herbs_flowers:hover,
+.touch .card-tea .card-container.color-class-herbs_flowers:active {
+  border-color: #ffc7d1;
+  box-shadow: 0 0 5px 0 #ffc7d1,0 3px 20px 0 #ffc7d1
+}
+.no-touch .card-tea .card-container.color-class-rooibos:hover,
+.touch .card-tea .card-container.color-class-rooibos:active {
+  border-color: #c98c78;
+  box-shadow: 0 0 5px 0 #c98c78,0 3px 20px 0 #c98c78
+}
+.no-touch .card-tea .card-container.color-class-additives:hover,
+.touch .card-tea .card-container.color-class-additives:active {
+  border-color: #e0e0e0;
+  box-shadow: 0 0 5px 0 #e0e0e0,0 3px 20px 0 #e0e0e0
+}
+.no-touch .card-tea .card-container.color-class-not_available:hover,
+.touch .card-tea .card-container.color-class-not_available:active {
+  border-color: #c7c7c7;
+  box-shadow: 0 0 5px 0 #c7c7c7,0 3px 20px 0 #c7c7c7
+}
+.no-touch .card-tea .card-container.color-class-temporary_not_available:hover,
+.touch .card-tea .card-container.color-class-temporary_not_available:active {
+  border-color: rgba(53,48,95,.53);
+  box-shadow: 0 0 5px 0 rgba(53,48,95,.53),0 3px 20px 0 rgba(53,48,95,.53)
+}
+.no-touch .card-tea .card-container.color-class-kits:hover,
+.touch .card-tea .card-container.color-class-kits:active {
+  border-color: #9797aa;
+  box-shadow: 0 0 5px 0 #9797aa,0 3px 20px 0 #9797aa
+}
+.card-tea .card-inner {
+  padding: 0 12px 12px 12px
+}
+.card-tea .card-inner [data-block-type=number] {
+  margin-bottom: 7px
+}
+.card-tea .card-inner [data-block-type=name-chinese] {
+  margin-bottom: 5px
+}
+.card-tea .card-inner [data-block-type=name-russian] {
+  margin-bottom: 10px;
+  min-height: 36px
+}
+.card-tea .card-inner [data-block-type=rating] .stars > svg {
+  margin: 0 2px
+}
+.card-tea .card-inner [data-block-type=price] {
+  line-height: 35px;
+  margin-bottom: 10px
+}
+.card-tea .card-inner [data-block-type=price] .current-price {
+  font-size: 20px;
+  line-height: 20px
+}
+.card-tea .card-inner [data-block-type=price] .old-price {
+  position: relative
+}
+.card-tea .card-inner [data-block-type=price] .old-price .line-through {
+  position: absolute;
+  top: 45%;
+  display: block;
+  width: 100%;
+  height: 1px;
+  color: #f54882;
+  background-color: #f54882
+}
+.card-tea .card-inner [data-block-type=buy] .offer-tree-prop {
+  width: 47%;
+  max-width: 50%
+}
+.card-tea .card-inner [data-block-type=buy] .action-block svg {
+  margin-top: -2px
+}
+.card-tea .card-cover {
+  width: 100%;
+  height: 140px;
+  margin-bottom: 10px;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden
+}
+.card-tea .card-cover img {
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+  width: 100%!important;
+  max-width: initial;
+  max-height: initial
+}
+.card-tea .card-cover-large-height {
+  height: 280px
+}
+.card-tea .card-cover-short-height {
+  height: 110px
+}
+.card-tea .card-mark-favorite {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1
+}
+.card-nut-fruit .card-container-shadow,
+.card-spice-salt-sugar .card-container-shadow {
+  width: 95%;
+  height: 13px;
+  left: 2.5%;
+  bottom: -1px;
+  border-radius: 100%/13px;
+  background: linear-gradient(180deg,#bab7bb 38.46%,rgba(186,183,187,0) 100%);
+  filter: blur(5px)
+}
+.card-nut-fruit .card-container,
+.card-spice-salt-sugar .card-container {
+  padding: 15px 0
+}
+.card-nut-fruit .card-container.card-disabled,
+.card-spice-salt-sugar .card-container.card-disabled {
+  filter: grayscale(1)
+}
+.card-nut-fruit .card-container.card-disabled .card-top-block > :not(.card-name),
+.card-spice-salt-sugar .card-container.card-disabled .card-top-block > :not(.card-name) {
+  opacity: .5
+}
+.card-nut-fruit .card-container.card-disabled .card-buy-block,
+.card-spice-salt-sugar .card-container.card-disabled .card-buy-block {
+  opacity: .5
+}
+.card-nut-fruit .card-container .card-top-block > *,
+.card-spice-salt-sugar .card-container .card-top-block > * {
+  padding-left: 20px;
+  padding-right: 20px
+}
+.card-coffee .card-nut-fruit .card-container.promo-product .card-buy-block .action-block .button-action-wrapper .value-button .label-area .card-top-block .card-marks input .card-marks-number-label > span,
+.card-coffee .card-nut-fruit .card-container.promo-product .card-top-block .card-marks .card-buy-block .action-block .button-action-wrapper .value-button .label-area input .card-marks-number-label > span,
+.card-coffee .card-nut-fruit .card-container.promo-product .card-top-block .card-marks .card-desc .card-marks-number-label > span,
+.card-coffee .card-nut-fruit .card-container.promo-product .card-top-block .card-marks .price-block .card-marks-number-label > span,
+.card-coffee .card-nut-fruit .card-container.promo-product .card-top-block .card-marks .price-block .current-price .card-marks-number-label > span,
+.card-coffee .card-nut-fruit .card-container.promo-product .price-block .card-top-block .card-marks .current-price .card-marks-number-label > span,
+.card-coffee .card-spice-salt-sugar .card-container.promo-product .card-buy-block .action-block .button-action-wrapper .value-button .label-area .card-top-block .card-marks input .card-marks-number-label > span,
+.card-coffee .card-spice-salt-sugar .card-container.promo-product .card-top-block .card-marks .card-buy-block .action-block .button-action-wrapper .value-button .label-area input .card-marks-number-label > span,
+.card-coffee .card-spice-salt-sugar .card-container.promo-product .card-top-block .card-marks .card-desc .card-marks-number-label > span,
+.card-coffee .card-spice-salt-sugar .card-container.promo-product .card-top-block .card-marks .price-block .card-marks-number-label > span,
+.card-coffee .card-spice-salt-sugar .card-container.promo-product .card-top-block .card-marks .price-block .current-price .card-marks-number-label > span,
+.card-coffee .card-spice-salt-sugar .card-container.promo-product .price-block .card-top-block .card-marks .current-price .card-marks-number-label > span,
+.card-nut-fruit .card-coffee .card-container.promo-product .card-buy-block .action-block .button-action-wrapper .value-button .label-area .card-top-block .card-marks input .card-marks-number-label > span,
+.card-nut-fruit .card-coffee .card-container.promo-product .card-top-block .card-marks .card-buy-block .action-block .button-action-wrapper .value-button .label-area input .card-marks-number-label > span,
+.card-nut-fruit .card-coffee .card-container.promo-product .card-top-block .card-marks .card-desc .card-marks-number-label > span,
+.card-nut-fruit .card-coffee .card-container.promo-product .card-top-block .card-marks .price-block .card-marks-number-label > span,
+.card-nut-fruit .card-coffee .card-container.promo-product .card-top-block .card-marks .price-block .current-price .card-marks-number-label > span,
+.card-nut-fruit .card-coffee .card-container.promo-product .price-block .card-top-block .card-marks .current-price .card-marks-number-label > span,
+.card-nut-fruit .card-container .card-top-block .card-marks .card-marks-number .card-marks-number-label > span,
+.card-spice-salt-sugar .card-coffee .card-container.promo-product .card-buy-block .action-block .button-action-wrapper .value-button .label-area .card-top-block .card-marks input .card-marks-number-label > span,
+.card-spice-salt-sugar .card-coffee .card-container.promo-product .card-top-block .card-marks .card-buy-block .action-block .button-action-wrapper .value-button .label-area input .card-marks-number-label > span,
+.card-spice-salt-sugar .card-coffee .card-container.promo-product .card-top-block .card-marks .card-desc .card-marks-number-label > span,
+.card-spice-salt-sugar .card-coffee .card-container.promo-product .card-top-block .card-marks .price-block .card-marks-number-label > span,
+.card-spice-salt-sugar .card-coffee .card-container.promo-product .card-top-block .card-marks .price-block .current-price .card-marks-number-label > span,
+.card-spice-salt-sugar .card-coffee .card-container.promo-product .price-block .card-top-block .card-marks .current-price .card-marks-number-label > span,
+.card-spice-salt-sugar .card-container .card-top-block .card-marks .card-marks-number .card-marks-number-label > span {
+  font-size: 32px;
+  line-height: 31px
+}
+.card-nut-fruit .card-container .card-top-block .card-marks .card-marks-list,
+.card-spice-salt-sugar .card-container .card-top-block .card-marks .card-marks-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap
+}
+.card-nut-fruit .card-container .card-top-block .card-marks .card-marks-list .card-mark,
+.card-spice-salt-sugar .card-container .card-top-block .card-marks .card-marks-list .card-mark {
+  padding: 0 6px;
+  line-height: 20px
+}
+.card-nut-fruit .card-container .card-top-block .card-marks .card-marks-list .card-mark.hidden,
+.card-spice-salt-sugar .card-container .card-top-block .card-marks .card-marks-list .card-mark.hidden {
+  display: none
+}
+.card-nut-fruit .card-container .card-top-block .card-marks .card-marks-list .card-mark.icon-smaller,
+.card-spice-salt-sugar .card-container .card-top-block .card-marks .card-marks-list .card-mark.icon-smaller {
+  padding: 0 6px
+}
+.card-nut-fruit .card-container .card-top-block .card-marks .card-marks-list .card-mark:first-child,
+.card-spice-salt-sugar .card-container .card-top-block .card-marks .card-marks-list .card-mark:first-child {
+  padding-left: 0
+}
+.card-nut-fruit .card-container .card-top-block .card-marks .card-marks-list .card-mark:last-child,
+.card-spice-salt-sugar .card-container .card-top-block .card-marks .card-marks-list .card-mark:last-child {
+  padding-right: 0
+}
+.card-nut-fruit .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon,
+.card-spice-salt-sugar .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon {
+  width: 23px;
+  height: 23px
+}
+.card-nut-fruit .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-heart,
+.card-spice-salt-sugar .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-heart {
+  color: #fff
+}
+.card-nut-fruit .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-heart.-active,
+.card-spice-salt-sugar .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-heart.-active {
+  color: #f3315f
+}
+.no-touch .card-nut-fruit .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-heart:hover:not(.-active),
+.no-touch .card-spice-salt-sugar .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-heart:hover:not(.-active),
+.touch .card-nut-fruit .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-heart:active:not(.-active),
+.touch .card-spice-salt-sugar .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-heart:active:not(.-active) {
+  color: #f3315f;
+  opacity: .8
+}
+.card-nut-fruit .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-smaller,
+.card-spice-salt-sugar .card-container .card-top-block .card-marks .card-marks-list .card-mark .card-icon.icon-smaller {
+  width: 19px;
+  height: 19px
+}
+.card-nut-fruit .card-container .card-top-block .card-name,
+.card-spice-salt-sugar .card-container .card-top-block .card-name {
+  font-size: 27px;
+  line-height: 31px
+}
+.card-nut-fruit .card-container .card-top-block .card-name .card-category,
+.card-spice-salt-sugar .card-container .card-top-block .card-name .card-category {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: .05em;
+  text-indent: 1px;
+  margin-bottom: 10px
+}
+.card-nut-fruit .card-container .card-top-block .card-sub-name,
+.card-spice-salt-sugar .card-container .card-top-block .card-sub-name {
+  font-family: Circe,sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px
+}
+.card-nut-fruit .card-container .card-top-block .card-rating .stars,
+.card-spice-salt-sugar .card-container .card-top-block .card-rating .stars {
+  margin-left: 0
+}
+.card-nut-fruit .card-container .card-top-block .card-rating .stars svg,
+.card-spice-salt-sugar .card-container .card-top-block .card-rating .stars svg {
+  width: 15px;
+  height: 14px;
+  margin: 0 5px
+}
+.card-nut-fruit .card-container .card-top-block .card-rating .stars svg:first-child,
+.card-spice-salt-sugar .card-container .card-top-block .card-rating .stars svg:first-child {
+  margin-left: 0
+}
+.card-nut-fruit .card-container .card-top-block .card-rating .stars svg:last-child,
+.card-spice-salt-sugar .card-container .card-top-block .card-rating .stars svg:last-child {
+  margin-right: 0
+}
+.card-nut-fruit .card-container .card-buy-block,
+.card-spice-salt-sugar .card-container .card-buy-block {
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 115px
+}
+.card-nut-fruit .card-container .card-buy-block .action-block .button-action-wrapper .value-button button,
+.card-spice-salt-sugar .card-container .card-buy-block .action-block .button-action-wrapper .value-button button {
+  background-color: #b399cc
+}
+.no-touch .card-nut-fruit .card-container .card-buy-block .action-block .button-action-wrapper .value-button button:not([data-action]):hover,
+.no-touch .card-spice-salt-sugar .card-container .card-buy-block .action-block .button-action-wrapper .value-button button:not([data-action]):hover,
+.touch .card-nut-fruit .card-container .card-buy-block .action-block .button-action-wrapper .value-button button:not([data-action]):active,
+.touch .card-spice-salt-sugar .card-container .card-buy-block .action-block .button-action-wrapper .value-button button:not([data-action]):active {
+  background-color: #8eda72
+}
+.card-nut-fruit .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action],
+.card-spice-salt-sugar .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action] {
+  background-color: #b399cc
+}
+.no-touch .card-nut-fruit .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action]:hover,
+.no-touch .card-spice-salt-sugar .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action]:hover,
+.touch .card-nut-fruit .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action]:active,
+.touch .card-spice-salt-sugar .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action]:active {
+  background-color: #b399cc
+}
+.card-nut-fruit .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action=decrease],
+.card-spice-salt-sugar .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action=decrease] {
+  background-color: #f3315f
+}
+.no-touch .card-nut-fruit .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action=decrease]:hover,
+.no-touch .card-spice-salt-sugar .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action=decrease]:hover,
+.touch .card-nut-fruit .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action=decrease]:active,
+.touch .card-spice-salt-sugar .card-container .card-buy-block .action-block .button-action-wrapper .value-button button[data-action=decrease]:active {
+  background-color: #f3315f
+}
+.card-nut-fruit .card-container .card-buy-block .action-block .button-action-wrapper .value-button .label-area,
+.card-spice-salt-sugar .card-container .card-buy-block .action-block .button-action-wrapper .value-button .label-area {
+  border-color: #b399cc;
+  border-left: none;
+  border-right: none
+}
+.card-nut-fruit .icon-hint.icon-hint-mark,
+.card-spice-salt-sugar .icon-hint.icon-hint-mark {
+  background-color: #353060;
+  position: relative;
+  color: #fff;
+  top: 0
+}
+.card-nut-fruit .icon-hint.icon-hint-mark.-invert,
+.card-spice-salt-sugar .icon-hint.icon-hint-mark.-invert {
+  background-color: #fff;
+  color: #353060
+}
+.breadcrumb-wrapper.catalog {
+  opacity: 0
+}
+.card-coffee .card-container .markup,
+.card-nut-fruit .card-container .markup,
+.card-spice-salt-sugar .card-container .markup {
+  position: relative
+}
+.card-coffee .card-container .markup > *,
+.card-nut-fruit .card-container .markup > *,
+.card-spice-salt-sugar .card-container .markup > * {
+  margin-left: 20px;
+  margin-right: 20px
+}
+@media only screen and (min-width:375px) {
+  .card-tea .card-container .card-buy-block .action-block .button {
+    font-size: 11px
+  }
+}
+@media only screen and (min-width:480px) {
+  .container-semi-large {
+    max-width: 480px
+  }
+  .card-tea .card-container .card-buy-block .action-block .button {
+    font-size: 13px
+  }
+}
+@media only screen and (min-width:667px) {
+  .container-semi-large {
+    max-width: 768px
+  }
+}
+@media only screen and (min-width:768px) {
+  .card-coffee .card-container {
+    padding: 15px 0 20px
+  }
+  .card-coffee .card-container .card-top-block .card-marks .card-marks-list .card-mark {
+    padding: 0 4px
+  }
+  .card-coffee .card-container .card-top-block .card-scales .card-scale .card-scale-high-level {
+    margin-right: 5px
+  }
+  .card-tea .card-inner [data-block-type=number] {
+    margin-bottom: 10px
+  }
+  .card-nut-fruit .card-container,
+  .card-spice-salt-sugar .card-container {
+    padding: 15px 0 20px
+  }
+  .card-nut-fruit .card-container .card-top-block .card-marks .card-marks-list .card-mark,
+  .card-spice-salt-sugar .card-container .card-top-block .card-marks .card-marks-list .card-mark {
+    padding: 0 4px
+  }
+}
+@media only screen and (min-width:1020px) {
+  .container-semi-large {
+    max-width: 1020px
+  }
+}
+@media only screen and (min-width:1280px) {
+  .container-semi-large {
+    max-width: 1280px;
+    padding: 0 20px
+  }
+}
+@media only screen and (min-width:1342px) {
+  .container-semi-large {
+    max-width: 1276px;
+    padding: 0
+  }
+}
+@media only screen and (min-width:1402px) {
+  .container-semi-large {
+    max-width: 1276px;
+    padding: 0
+  }
+}
